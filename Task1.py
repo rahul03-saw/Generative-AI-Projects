@@ -1,3 +1,11 @@
+#Task1: Text Generation with GPT- 2 
+
+'''Problem Statement: Train a model to generate coherent and contextually relevant text based on a given prompt.
+Starting with GPT-2, transformer model developed by Open AI, you will learn how to fine tune the model on a custom
+dataset to create text that mimics the style and structure of your training data This is the name and problem statement 
+of my project Can you please explain me the project.'''
+
+
 # Step 1: Install required libraries
 !pip install transformers datasets accelerate
 
