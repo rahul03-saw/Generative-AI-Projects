@@ -1,3 +1,7 @@
+#Task5: Neural Style Transfer
+
+'''Problem Statement: Apply the artistic style of one image (e.g., a famous painting) to the content of another image using neural style transfer. '''
+
 # Install TensorFlow (if not already installed)
 !pip install tensorflow
 
