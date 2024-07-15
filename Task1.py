@@ -17,7 +17,7 @@ uploaded = files.upload()
 from datasets import load_dataset
 
 # Load the dataset and take a small subset for testing
-dataset = load_dataset('text', data_files={'train': '11-0.txt'})
+dataset = load_dataset('text', data_files={'train': '1342-0.txt'})
 small_train_dataset = dataset['train'].shuffle(seed=42).select(range(100))  # Select 100 samples for testing
 
 # Step 4: Tokenize the dataset
